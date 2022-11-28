@@ -9,7 +9,7 @@ body {
 
 }
 
-.footer {
+.header {
          background-color: #1f2937;
          font-size: 24px;
          color: #f9faf8;
@@ -19,7 +19,7 @@ body {
 
 }
 
-.footer ul {
+.header ul {
            font-size: 18px;
            color: #e5e7eb;
 
@@ -129,4 +129,51 @@ span2 {
         font-weight: bold;
         margin-top: 150px;
         color: #1f2937 ;
+}
+
+.container2 {
+           display: flex;
+           justify-content: center;
+           align-items: center;
+           height: 40vh
+}
+
+.container3 {
+            background-color: #3882f6;
+            width: 800px;
+            height: 100px;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            border-radius: 20px;
+}
+
+.bigtext {
+         font-size: 22px;
+         font-weight: bold;
+         color: white;
+}
+
+.smalltext {
+           font-size: 18px;
+           font-weight: lighter;
+           color: white;
+
+}
+
+.footer {
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+
+.footer ul { 
+      font-size: 18px;
+      color: #e5e7eb;
+      gap: 5px;
+
 }
